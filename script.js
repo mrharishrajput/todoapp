@@ -14,7 +14,7 @@ function addtodo(){
 
 
 function maping(){
-    document.getElementById("count").innerHTML=`My Total todo's are ${todo.length+1}`;
+    document.getElementById("count").innerHTML=`My Total todo's are ${todo.length}`;
     document.getElementById("mytodo").innerHTML = todo.map((i)=>{
 
         return `<div>${i}</div>`
